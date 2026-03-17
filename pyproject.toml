@@ -1,0 +1,42 @@
+[project]
+name = "slideforge"
+version = "0.1.0"
+description = "SlideForge: Agentic Slide Generation RL Environment"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0",
+    "httpx>=0.25.0",
+    "playwright>=1.40.0",
+    "beautifulsoup4>=4.12.0",
+    "Pillow>=10.0.0",
+    "pydantic>=2.0",
+    "torch>=2.0",
+    "transformers>=4.40",
+]
+
+[project.optional-dependencies]
+rollouts = [
+    "boto3>=1.34.0",
+    "datasets>=2.14.0",
+    "huggingface-hub>=0.20.0",
+    "python-pptx>=1.0.0",
+    "python-dotenv>=1.0.0",
+]
+training = [
+    "unsloth==2026.3.3",
+    "trl==0.29.0",
+    "peft==0.18.1",
+    "accelerate==1.13.0",
+    "bitsandbytes==0.49.2",
+    "datasets==4.3.0",
+]
+dev = ["pytest", "pytest-asyncio"]
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["envs*", "rewards*", "training*"]

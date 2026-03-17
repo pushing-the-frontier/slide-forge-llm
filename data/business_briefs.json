@@ -1,0 +1,522 @@
+[
+  {
+    "topic": "Q4 2025 Financial Results - TechCorp Inc",
+    "audience": "board of directors",
+    "num_slides": 6,
+    "sections_per_slide": 3,
+    "confidence": 1.0,
+    "content": {
+      "revenue": "$142.3M (up 23% YoY)",
+      "gross_margin": "68.2% (up from 65.1%)",
+      "operating_expenses": "$87.4M (R&D: $34.2M, S&M: $41.1M, G&A: $12.1M)",
+      "net_income": "$18.7M (13.1% margin)",
+      "arr": "$156.8M",
+      "customer_count": "2,847 enterprise customers",
+      "nrr": "118%",
+      "churn": "4.2% annual",
+      "cash_position": "$89.3M",
+      "headcount": "412 employees",
+      "key_wins": ["Fortune 500 bank ($2.1M ACV)", "Healthcare system ($1.8M ACV)", "Retail chain ($950K ACV)"],
+      "challenges": ["Longer sales cycles in EMEA", "Increased competition in mid-market"],
+      "guidance_q1": "$38-40M revenue"
+    }
+  },
+  {
+    "topic": "Series B Funding Pitch - AI-Powered Supply Chain Platform",
+    "audience": "venture capitalists",
+    "num_slides": 10,
+    "sections_per_slide": 3,
+    "confidence": 1.0,
+    "content": {
+      "company": "ChainMind AI",
+      "founded": "2022",
+      "problem": "Supply chain disruptions cost enterprises $184B annually. 73% of companies lack real-time visibility.",
+      "solution": "AI platform predicting disruptions 14 days ahead with 94% accuracy using satellite, shipping, and weather data",
+      "tam": "$47B supply chain software market",
+      "sam": "$12B predictive analytics segment",
+      "som": "$1.2B (enterprise manufacturing)",
+      "traction": {"arr": "$4.2M", "customers": 38, "growth": "312% YoY", "nrr": "145%"},
+      "unit_economics": {"acv": "$110K", "cac": "$45K", "ltv": "$385K", "payback": "5 months"},
+      "team": ["CEO: ex-Amazon Supply Chain VP", "CTO: ex-Google ML Director", "COO: ex-Flexport"],
+      "competition": ["Blue Yonder (legacy)", "Kinaxis (expensive)", "o9 Solutions (complex)"],
+      "differentiation": "Only platform combining satellite imagery + shipping data + ML in real-time",
+      "use_of_funds": {"engineering": "50%", "sales": "30%", "operations": "20%"},
+      "ask": "$25M at $100M pre-money",
+      "milestones": ["100 customers by Q4 2026", "$15M ARR", "EMEA expansion"]
+    }
+  },
+  {
+    "topic": "Electric Vehicle Market Analysis 2026",
+    "audience": "automotive industry executives",
+    "num_slides": 8,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Generative AI Enterprise Adoption Trends",
+    "audience": "CTO and technology leadership",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Cloud Computing Market Share Analysis - AWS vs Azure vs GCP",
+    "audience": "IT strategy team",
+    "num_slides": 8,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Cybersecurity Threat Landscape 2026",
+    "audience": "CISO and security leadership",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Remote Work Productivity Statistics and Trends",
+    "audience": "HR and executive leadership",
+    "num_slides": 6,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "SaaS Industry Benchmarks and Metrics 2026",
+    "audience": "SaaS founders and investors",
+    "num_slides": 8,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Customer Churn Analysis and Retention Strategy",
+    "audience": "executive team",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 1.0,
+    "content": {
+      "current_metrics": {"annual_churn": "8.2%", "revenue_churn": "6.1%", "logo_churn": "11.4%"},
+      "churn_by_segment": {"enterprise": "3.1%", "mid_market": "7.8%", "smb": "18.2%"},
+      "churn_reasons": {"lack_of_adoption": "34%", "budget_cuts": "22%", "competitor": "19%", "product_gaps": "15%", "support_issues": "10%"},
+      "at_risk_indicators": ["<50% feature adoption", "No login in 30 days", "Support tickets >5/month", "No executive sponsor"],
+      "retention_initiatives": [
+        {"name": "Health Score System", "investment": "$150K", "expected_impact": "-2% churn"},
+        {"name": "Customer Success Expansion", "investment": "$400K", "expected_impact": "-1.5% churn"},
+        {"name": "Onboarding Revamp", "investment": "$200K", "expected_impact": "-1% churn"}
+      ],
+      "target": "Reduce annual churn to 5.5% by Q4 2026",
+      "financial_impact": "$2.8M ARR saved annually"
+    }
+  },
+  {
+    "topic": "Fintech Payment Processing Market Overview",
+    "audience": "fintech investors",
+    "num_slides": 8,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Healthcare AI and Machine Learning Applications",
+    "audience": "healthcare executives",
+    "num_slides": 8,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Series A Pitch - Healthcare AI Diagnostics Platform",
+    "audience": "healthcare-focused VCs",
+    "num_slides": 10,
+    "sections_per_slide": 3,
+    "confidence": 1.0,
+    "content": {
+      "company": "DiagnosAI",
+      "problem": "Diagnostic errors affect 12M Americans annually. Radiologists face 20% burnout rate with 4-hour average read times.",
+      "solution": "FDA-cleared AI that pre-screens radiology images, flagging critical findings in <30 seconds with 97.2% sensitivity",
+      "regulatory": ["FDA 510(k) cleared (2024)", "CE Mark", "HIPAA compliant", "SOC 2 Type II"],
+      "clinical_validation": {"studies": 3, "patients": "47,000", "published": "JAMA, Radiology"},
+      "tam": "$8.4B medical imaging AI market (2028)",
+      "traction": {"arr": "$1.8M", "hospitals": 23, "scans_analyzed": "2.1M", "growth": "280% YoY"},
+      "unit_economics": {"acv": "$78K", "gross_margin": "82%", "cac": "$32K", "ltv": "$312K"},
+      "team": ["CEO: ex-Philips Healthcare GM", "CTO: Stanford AI Lab", "CMO: Former Mayo Clinic radiologist"],
+      "ask": "$12M Series A",
+      "use_of_funds": {"clinical_sales": "45%", "product": "35%", "regulatory": "20%"}
+    }
+  },
+  {
+    "topic": "E-commerce Growth Statistics and Trends",
+    "audience": "retail executives",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Venture Capital Investment Trends 2026",
+    "audience": "startup founders",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Digital Transformation ROI Case Studies",
+    "audience": "C-suite executives",
+    "num_slides": 8,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Quarterly Business Review - Enterprise Sales Division",
+    "audience": "CEO and sales leadership",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 1.0,
+    "content": {
+      "q4_results": {
+        "bookings": "$18.4M (102% of quota)",
+        "revenue": "$14.2M",
+        "deals_closed": 47,
+        "avg_deal_size": "$391K",
+        "win_rate": "34%"
+      },
+      "pipeline": {
+        "total": "$62.3M",
+        "stage_1": "$24.1M",
+        "stage_2": "$18.7M",
+        "stage_3": "$12.4M",
+        "commit": "$7.1M"
+      },
+      "rep_performance": {
+        "quota_attainment_avg": "94%",
+        "reps_at_quota": "12 of 18",
+        "top_performer": "Sarah Chen - 156%",
+        "ramp_time": "5.2 months"
+      },
+      "competitive_wins": {"vs_competitor_a": "62%", "vs_competitor_b": "48%", "vs_incumbent": "71%"},
+      "challenges": ["EMEA deal slippage", "Security review delays", "Procurement bottlenecks"],
+      "q1_forecast": "$16.8M (95% confidence)"
+    }
+  },
+  {
+    "topic": "Artificial Intelligence in Manufacturing",
+    "audience": "manufacturing executives",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Sustainable Business Practices ROI Analysis",
+    "audience": "sustainability committee",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Data Privacy Regulations Global Overview",
+    "audience": "compliance and legal teams",
+    "num_slides": 8,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Customer Experience Technology Stack",
+    "audience": "CX leadership",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "M&A Target Evaluation - FinTech Acquisition",
+    "audience": "board and investment committee",
+    "num_slides": 10,
+    "sections_per_slide": 3,
+    "confidence": 1.0,
+    "content": {
+      "target": "PayFlow Technologies",
+      "overview": {
+        "founded": "2019",
+        "headquarters": "Austin, TX",
+        "employees": 145,
+        "description": "B2B payments automation platform"
+      },
+      "financials": {
+        "arr": "$12.4M",
+        "growth_rate": "67% YoY",
+        "gross_margin": "74%",
+        "burn_rate": "$800K/month",
+        "runway": "14 months"
+      },
+      "metrics": {
+        "customers": 340,
+        "nrr": "124%",
+        "logo_churn": "6%",
+        "acv": "$36K",
+        "cac_payback": "11 months"
+      },
+      "strategic_rationale": [
+        "Expands payment capabilities",
+        "Cross-sell to our 2,800 customers",
+        "Acquires 340 net-new logos",
+        "Strong engineering team (42 engineers)"
+      ],
+      "valuation": {
+        "asking": "$95M (7.7x ARR)",
+        "our_offer": "$78M (6.3x ARR)",
+        "comps": "Sector median 5.8x ARR"
+      },
+      "recommendation": "Proceed with $82M offer, 70% cash / 30% stock"
+    }
+  },
+  {
+    "topic": "Blockchain Enterprise Use Cases 2026",
+    "audience": "technology leadership",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Employee Engagement Best Practices",
+    "audience": "HR leadership",
+    "num_slides": 6,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "API Economy and Monetization Strategies",
+    "audience": "product leadership",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Supply Chain Resilience Strategies Post-Pandemic",
+    "audience": "operations leadership",
+    "num_slides": 8,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Product Roadmap 2026 - Mobile Banking App",
+    "audience": "product and engineering teams",
+    "num_slides": 10,
+    "sections_per_slide": 3,
+    "confidence": 1.0,
+    "content": {
+      "current_metrics": {
+        "mau": "2.4M",
+        "dau": "890K",
+        "app_rating": "4.2 stars",
+        "session_time": "3.2 min",
+        "transactions_monthly": "18.7M"
+      },
+      "q1_releases": [
+        {"feature": "Instant Payments", "effort": "L", "impact": "High"},
+        {"feature": "Biometric Auth Upgrade", "effort": "M", "impact": "High"},
+        {"feature": "Dark Mode", "effort": "S", "impact": "Medium"}
+      ],
+      "q2_releases": [
+        {"feature": "AI Spending Insights", "effort": "L", "impact": "High"},
+        {"feature": "Card Controls", "effort": "M", "impact": "High"}
+      ],
+      "q3_releases": [
+        {"feature": "Investment Dashboard", "effort": "XL", "impact": "High"},
+        {"feature": "Family Accounts", "effort": "L", "impact": "Medium"}
+      ],
+      "q4_releases": [
+        {"feature": "Crypto Trading", "effort": "XL", "impact": "High"},
+        {"feature": "Voice Commands", "effort": "L", "impact": "Medium"}
+      ],
+      "success_metrics": {"target_mau": "3.2M", "target_rating": "4.5 stars", "target_nps": "55"},
+      "resources": {"engineers": 24, "designers": 6, "pms": 4}
+    }
+  },
+  {
+    "topic": "Quantum Computing Business Applications",
+    "audience": "technology executives",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "5G Technology Business Impact Analysis",
+    "audience": "telecom executives",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "DevOps and Platform Engineering Trends",
+    "audience": "engineering leadership",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Customer Success Metrics and Benchmarks",
+    "audience": "customer success leadership",
+    "num_slides": 6,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Cybersecurity Posture Review and Investment Plan",
+    "audience": "CISO and IT leadership",
+    "num_slides": 8,
+    "sections_per_slide": 3,
+    "confidence": 1.0,
+    "content": {
+      "current_state": {
+        "security_score": "72/100 (industry avg: 68)",
+        "incidents_ytd": 3,
+        "mttr": "4.2 hours",
+        "vulnerabilities_critical": 12,
+        "patch_compliance": "89%"
+      },
+      "threat_landscape": {
+        "phishing_attempts": "2,847/month (up 34%)",
+        "blocked_malware": "1,203/month",
+        "brute_force": "45,000/month"
+      },
+      "gaps_identified": [
+        {"area": "Endpoint Detection", "risk": "High", "current": "Basic AV", "needed": "EDR/XDR"},
+        {"area": "Identity", "risk": "High", "current": "MFA partial", "needed": "Zero Trust"},
+        {"area": "Cloud Security", "risk": "Medium", "current": "Native tools", "needed": "CSPM"}
+      ],
+      "investment_plan": {
+        "year_1": "$1.2M",
+        "breakdown": {"edr_xdr": "$380K", "identity_platform": "$290K", "cspm": "$180K", "siem_upgrade": "$220K", "training": "$130K"}
+      },
+      "expected_outcomes": {"security_score": "85/100", "mttr": "<2 hours", "patch_compliance": "98%"},
+      "roi": "Estimated $3.4M risk reduction over 3 years"
+    }
+  },
+  {
+    "topic": "Retail Technology Innovation Trends",
+    "audience": "retail technology leaders",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Machine Learning Operations (MLOps) Best Practices",
+    "audience": "data science leadership",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "B2B Sales Automation Technology Stack",
+    "audience": "sales operations",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Edge Computing Market Analysis",
+    "audience": "infrastructure leadership",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "2026 Marketing Budget Allocation Strategy",
+    "audience": "CMO and marketing leadership",
+    "num_slides": 8,
+    "sections_per_slide": 3,
+    "confidence": 1.0,
+    "content": {
+      "total_budget": "$8.4M (up 12% from 2025)",
+      "allocation": {
+        "digital_advertising": {"amount": "$2.8M", "percent": "33%"},
+        "content_marketing": {"amount": "$1.4M", "percent": "17%"},
+        "events": {"amount": "$1.8M", "percent": "21%"},
+        "brand": {"amount": "$1.2M", "percent": "14%"},
+        "marketing_ops": {"amount": "$1.2M", "percent": "14%"}
+      },
+      "kpis": {"mqls": "12,000", "pipeline": "$48M", "cac": "$4,200", "marketing_sourced": "35%"},
+      "changes_from_2025": ["Reduce trade show spend 15%", "Increase video content 40%", "New ABM program $300K"],
+      "roi_targets": {"digital": "5:1", "content": "8:1", "events": "3:1"}
+    }
+  },
+  {
+    "topic": "Talent Acquisition Technology Trends",
+    "audience": "HR technology leaders",
+    "num_slides": 6,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Low-Code No-Code Platform Market Analysis",
+    "audience": "IT leadership",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Subscription Business Model Metrics",
+    "audience": "finance and product teams",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Internet of Things Industrial Applications",
+    "audience": "manufacturing executives",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Content Marketing ROI and Benchmarks",
+    "audience": "marketing leadership",
+    "num_slides": 6,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Cloud Cost Optimization Strategies",
+    "audience": "CFO and IT leadership",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Autonomous Vehicle Technology Progress",
+    "audience": "automotive investors",
+    "num_slides": 8,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Digital Banking Trends and Statistics",
+    "audience": "banking executives",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Agile Transformation Success Metrics",
+    "audience": "engineering leadership",
+    "num_slides": 6,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Influencer Marketing ROI Analysis",
+    "audience": "marketing leadership",
+    "num_slides": 6,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Zero Trust Security Architecture",
+    "audience": "security leadership",
+    "num_slides": 7,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  },
+  {
+    "topic": "Renewable Energy Market Investment Analysis",
+    "audience": "energy investors",
+    "num_slides": 8,
+    "sections_per_slide": 3,
+    "confidence": 0.3
+  }
+]

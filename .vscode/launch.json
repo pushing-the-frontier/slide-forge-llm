@@ -1,0 +1,86 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Test Rollouts (3 briefs)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "training.rollouts",
+      "args": [
+        "--briefs-file", "data/business_briefs.json",
+        "--limit", "3",
+        "--output", "outputs/business_trajectories.json",
+        "--save-slides",
+        "--max-turns", "35",
+        "--dataset-format", "grpo"
+      ],
+      "cwd": "${workspaceFolder}",
+      "justMyCode": false
+    },
+    {
+      "name": "Edit Rollouts (from previous run)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "training.rollouts",
+      "args": [
+        "--edit-from", "outputs/business_trajectories.json",
+        // "--edit-instructions", "Improve clarity, add specific metrics, and strengthen the narrative flow",
+        "--edit-instructions", "Improve clarity, add specific metrics, and strengthen the narrative flow. Switch to the dark theme",
+        "--limit", "3",
+        "--output", "outputs/edited_trajectories.json",
+        "--save-slides",
+        "--max-turns", "35",
+        "--dataset-format", "grpo"
+      ],
+      "cwd": "${workspaceFolder}",
+      "justMyCode": false
+    },
+    {
+      "name": "Edit Rollouts (1 brief, 20 turns)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "training.rollouts",
+      "args": [
+        "--edit-from", "outputs/business_trajectories.json",
+        "--edit-instructions", "Strengthen each slide with more specific metrics and improve narrative flow",
+        "--limit", "1",
+        "--output", "outputs/edited_trajectories.json",
+        "--save-slides",
+        "--max-turns", "20"
+      ],
+      "cwd": "${workspaceFolder}",
+      "justMyCode": false
+    },
+    {
+      "name": "GRPO Training (edited trajectories)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "training.run_training",
+      "args": [
+        "--trajectories", "outputs/edited_trajectories_2.json",
+        "--model", "unsloth/Qwen2.5-Coder-7B-Instruct",
+        "--max-seq-length", "4096",
+        "--lora-r", "16",
+        "--lr", "5e-5",
+        "--num-generations", "2",
+        "--max-steps", "1000",
+        "--output-dir", "outputs/slideforge_grpo"
+      ],
+      "cwd": "${workspaceFolder}",
+      "justMyCode": false
+    },
+    {
+      "name": "Evaluate (all 48 trajectories)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "training.evaluate",
+      "args": [
+        "--checkpoint", "outputs/slideforge_grpo_all_trajectories/checkpoint-1000",
+        "--trajectories", "outputs/all_48_trajectories.json",
+        "--limit", "0"
+      ],
+      "cwd": "${workspaceFolder}",
+      "justMyCode": false
+    }
+  ]
+}
